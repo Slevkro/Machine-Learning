@@ -1,0 +1,32 @@
+ 0   ID      271116 non-null  int64  [SE VA]
+ 1   Name    271116 non-null  object [SE VA]
+ 2   Sex     271116 non-null  object [SE MAPEA]
+ 3   Age     261642 non-null  float64 [SE QUEDA]
+ 4   Height  210945 non-null  float64 [SE QUEDA]
+ 5   Weight  208241 non-null  float64 [SE QUEDA]
+ 6   Team    271116 non-null  object  [SE MAPEA]
+ 7   NOC     271116 non-null  object  [SE MAPEA] [POSIBLE CORRELACION CON TEAM]
+ 8   Games   271116 non-null  object  [SE VA]
+ 9   Year    271116 non-null  int64   [SE QUEDA]
+ 10  Season  271116 non-null  object  [SE MAPEA]
+ 11  City    271116 non-null  object  [SE MAPEA]
+ 12  Sport   271116 non-null  object  [SE MAPEA O SE VA]
+ 13  Event   271116 non-null  object  [SE VA]
+ 14  Medal   39783 non-null   object  [SE QUEDA Y SE MAPEA]
+
+ID: Identificador del atleta.
+Name: Nombre del atleta.
+Team: Pais del atleta.
+NOC: Comite olimpico al que pertenece el atleta.
+Games: Año y temporada de los juegos
+Age: Edad de los atletas.
+Height: Altura de los atletas.
+Weight: Peso de los atletas.
+Year: Año en el que se celebraron los juegos olimpicos.
+Medal: Medalla obtenida en los juegos.
+Sex: Sexo de los atletas.
+M: Femenino
+F: Masculino
+Season: Temporada en la que se selebraron los juegos olimpicos.
+Sport: Deporte que practica el atleta.
+Event: Nombre del evento en los juegos olimpicos
